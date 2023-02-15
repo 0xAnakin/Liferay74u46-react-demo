@@ -102,6 +102,9 @@ query {
 
 `OAUTH2_GraphQL` Access Policy with method name `get*`
 
+- Enabled: `true`
+- Default: `true`
+
 #### Oauth2 
 
 - Name: `react-headless-app`
