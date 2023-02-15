@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-import { GraphQLClient, request, gql } from 'graphql-request';
 import logo from './logo.svg';
 import './App.css';
 
