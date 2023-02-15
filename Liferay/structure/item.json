@@ -1,0 +1,242 @@
+{
+    "availableLanguageIds": [
+        "en_US"
+    ],
+    "contentType": "journal",
+    "dataDefinitionFields": [
+        {
+            "customProperties": {
+                "labelAtStructureLevel": true,
+                "confirmationErrorMessage": {
+                    "en_US": ""
+                },
+                "hideField": false,
+                "dataType": "string",
+                "tooltip": {
+                    "en_US": ""
+                },
+                "requireConfirmation": false,
+                "displayStyle": "singleline",
+                "visibilityExpression": "",
+                "requiredErrorMessage": {
+                    "en_US": ""
+                },
+                "fieldNamespace": "",
+                "objectFieldName": "",
+                "options": {},
+                "nativeField": false,
+                "confirmationLabel": {
+                    "en_US": ""
+                },
+                "fieldReference": "Text76665709",
+                "placeholder": {
+                    "en_US": ""
+                },
+                "direction": [
+                    "vertical"
+                ]
+            },
+            "defaultValue": {
+                "en_US": ""
+            },
+            "fieldType": "text",
+            "indexType": "keyword",
+            "indexable": true,
+            "label": {
+                "en_US": "Item"
+            },
+            "localizable": true,
+            "name": "Text76665709",
+            "nestedDataDefinitionFields": [],
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "tip": {
+                "en_US": ""
+            }
+        },
+        {
+            "customProperties": {
+                "labelAtStructureLevel": true,
+                "confirmationErrorMessage": {
+                    "en_US": ""
+                },
+                "hideField": false,
+                "dataType": "string",
+                "tooltip": {
+                    "en_US": ""
+                },
+                "requireConfirmation": false,
+                "displayStyle": "singleline",
+                "visibilityExpression": "",
+                "requiredErrorMessage": {
+                    "en_US": ""
+                },
+                "fieldNamespace": "",
+                "objectFieldName": "",
+                "options": {},
+                "nativeField": false,
+                "confirmationLabel": {
+                    "en_US": ""
+                },
+                "fieldReference": "Text25766793",
+                "placeholder": {
+                    "en_US": ""
+                },
+                "direction": [
+                    "vertical"
+                ]
+            },
+            "defaultValue": {
+                "en_US": ""
+            },
+            "fieldType": "text",
+            "indexType": "keyword",
+            "indexable": true,
+            "label": {
+                "en_US": "ID"
+            },
+            "localizable": true,
+            "name": "Text25766793",
+            "nestedDataDefinitionFields": [],
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "tip": {
+                "en_US": ""
+            }
+        },
+        {
+            "customProperties": {
+                "visibilityExpression": "",
+                "requiredErrorMessage": {
+                    "en_US": ""
+                },
+                "fieldNamespace": "",
+                "objectFieldName": "",
+                "dataType": "image",
+                "requiredDescription": true,
+                "fieldReference": "Image33093998"
+            },
+            "defaultValue": {
+                "en_US": {}
+            },
+            "fieldType": "image",
+            "indexType": "text",
+            "indexable": true,
+            "label": {
+                "en_US": "Image"
+            },
+            "localizable": true,
+            "name": "Image33093998",
+            "nestedDataDefinitionFields": [],
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "tip": {
+                "en_US": ""
+            }
+        },
+        {
+            "customProperties": {
+                "visibilityExpression": "",
+                "requiredErrorMessage": {
+                    "en_US": ""
+                },
+                "fieldNamespace": "",
+                "objectFieldName": "",
+                "dataType": "string",
+                "fieldReference": "RichText75622738"
+            },
+            "defaultValue": {
+                "en_US": ""
+            },
+            "fieldType": "rich_text",
+            "indexType": "text",
+            "indexable": true,
+            "label": {
+                "en_US": "Description"
+            },
+            "localizable": true,
+            "name": "RichText75622738",
+            "nestedDataDefinitionFields": [],
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "tip": {
+                "en_US": ""
+            }
+        }
+    ],
+    "defaultDataLayout": {
+        "dataLayoutFields": {},
+        "dataLayoutPages": [
+            {
+                "dataLayoutRows": [
+                    {
+                        "dataLayoutColumns": [
+                            {
+                                "columnSize": 12,
+                                "fieldNames": [
+                                    "Text76665709"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "dataLayoutColumns": [
+                            {
+                                "columnSize": 12,
+                                "fieldNames": [
+                                    "Text25766793"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "dataLayoutColumns": [
+                            {
+                                "columnSize": 12,
+                                "fieldNames": [
+                                    "Image33093998"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "dataLayoutColumns": [
+                            {
+                                "columnSize": 12,
+                                "fieldNames": [
+                                    "RichText75622738"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "description": {
+                    "en_US": ""
+                },
+                "title": {
+                    "en_US": ""
+                }
+            }
+        ],
+        "dataRules": [],
+        "description": {},
+        "name": {
+            "en_US": "Item Structure"
+        },
+        "paginationMode": "single-page"
+    },
+    "defaultLanguageId": "en_US",
+    "description": {},
+    "name": {
+        "en_US": "Item Structure"
+    },
+    "storageType": "default"
+}
